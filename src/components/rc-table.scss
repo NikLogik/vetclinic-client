@@ -1,18 +1,35 @@
 @import "../css/fonts.scss";
 @import "../css/vars.scss";
 
-$padding: 5px 10px;
-$color: $font-color-1;
+$padding: 8px 10px;
+$color: $font-color-2;
 $border: $border-weight solid $border-color;
 
 .rc-table {
     @extend %font-body;
-    color: $color;
+    color: $base-color-1;
+}
+
+.rc-table-content {
+    border: $border;
+}
+
+.rc-table thead td,
+.rc-table thead th {
+  background: $add-color-2;
+}
+
+.rc-table tbody tr td,
+.rc-table tbody tr th {
+  background: $add-color-3;
 }
 
 .rc-table-thead .rc-table-cell,
 .rc-table-tbody .rc-table-cell {
     padding: $padding;
+    border: $border;
+    border-top: 0;
+    border-left: 0;
 }
 
 .rc-table-thead .rc-table-cell {
@@ -23,4 +40,9 @@ $border: $border-weight solid $border-color;
 .rc-table-tbody .rc-table-cell {
     @extend %font-body;
     color: $color;
+}
+
+
+.rc-table-cell.rc-table-cell-row-hover {
+    background-color: $base-color-3
 }

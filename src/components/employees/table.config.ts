@@ -7,12 +7,12 @@ export const columns: ColumnsType<Employee>  = [
         dataIndex: 'id',
     },
     {
-        title: 'Имя',
-        dataIndex: 'firstName'
-    }, 
-    {
         title: 'Фамилия',
         dataIndex: 'lastName'
+    }, 
+    {
+        title: 'Имя',
+        dataIndex: 'firstName'
     }, 
     {
         title: "Отчество",

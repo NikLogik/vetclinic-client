@@ -1,17 +1,17 @@
-import { MenuItem, MenuItemGroup } from "rc-menu";
-import Menu from "rc-menu"
-import { useState } from "react";
 import "rc-menu/assets/index.css"
 import "./app-menu.scss";
 import { NavLink } from "./NavLink";
 import { LogoIcon } from "../Icons";
+import { Link } from "react-router-dom";
 
 const AppMenu = () => {
 
     return (
         <div className="app-menu">
             <div className="app-logo">
-                <LogoIcon/>
+                <Link to="/home" >
+                    <LogoIcon/>
+                </Link>
             </div>
             <div className="app-menu-content">
                 <NavLink caption="СТАЦИОНАР" to="/hospital"/>
@@ -23,7 +23,6 @@ const AppMenu = () => {
             </div>
             <div className="app-menu-footer">
                 <NavLink caption="ВХОД" to="/login"/>
-
             </div>
         </div>
     )

@@ -1,14 +1,31 @@
+@import "../../css/fonts.scss";
+@import "../../css/vars.scss";
+
 .login-page {
     width: 100%;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 10px;
 }
 
-.login-form {
+.login-fields {
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-field {
+    display: inline-flex;
+    box-shadow: 0px $border-weight $base-color-3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    column-gap: 10px;
 }
