@@ -1,0 +1,19 @@
+@import "../../css/fonts.scss";
+
+.page-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.not-found-title {
+    @extend %font-h1;
+    font-size: 32px
+}
+
+.not-found-decsription {
+    @extend %font-h2;
+}

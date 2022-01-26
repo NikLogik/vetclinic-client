@@ -1,8 +1,10 @@
 {
-  "name": "router-tabs-example",
+  "name": "vetclinic",
+  "description": "vetclinic-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -10,8 +12,15 @@
     "@types/node": "^16.11.21",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "axios": "^0.25.0",
+    "mobx-react": "^7.2.1",
+    "node-sass": "^7.0.1",
+    "rc-drawer": "^4.4.3",
+    "rc-menu": "^9.3.1",
+    "rc-table": "^7.22.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "5.0.0",
     "typescript": "^4.5.4",
     "web-vitals": "^2.1.3"
@@ -39,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8"
   }
 }

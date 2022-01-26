@@ -1,0 +1,49 @@
+@import "../../css/fonts.scss";
+@import "../../css/vars.scss";
+
+.app-menu {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: $base-color-1;
+    padding: 50px 25px 25px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-logo {
+
+}
+
+.app-menu-footer,
+.app-menu-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+}
+
+.rc-menu {
+    @extend %font-body;
+    color: $font-color-1;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    box-shadow: none;
+}
+
+.rc-menu-item-active {
+    background-color: $cream;
+}
+
+.rc-menu-item-selected {
+    background-color: $tyrian-purple;
+    color: $font-color-2;
+}
+
+.rc-menu-item-group-title {
+    color: $font-color-3;
+    border-bottom: $border-weight solid $border-color;
+}

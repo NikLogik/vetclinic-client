@@ -1,0 +1,19 @@
+@import "../../css/fonts.scss";
+
+.employees-page {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    row-gap: 8px;
+}
+
+.employees-table-title {
+    @extend %font-h1;
+}
+
+.btn-group {
+    display: inline-flex;
+    column-gap: 8px;
+}

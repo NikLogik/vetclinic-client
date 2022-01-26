@@ -1,0 +1,55 @@
+$light-grey: #E9E9E9;
+$dark-purple: #2b1a3d;
+
+$tyrian-purple: #500c39;
+$cotton-candy: #F4BBD3;
+$grey: #A9A9A9;
+$medium-purple: #9370DB;
+$cream: #FDFAE0;
+$white: #F8F8F8;
+
+$link: #2c39b5;
+
+//additional colors
+$base-color-1: #312450; //Russian Violet
+$base-color-2: #5E42A6; //Plump Purple
+$base-color-3: #D7E6FF; //Periwinkle Crayola
+$add-color-1: #CE6767; //Fuzzy Wuzzy
+$add-color-2: #F2E9E9; //Isabeline
+$add-color-3: #FEFDFD; //Soft peach
+
+//fonts
+$font-color-1: $base-color-3; //light
+$font-color-2: $base-color-1; //dark
+$font-color-3: $add-color-1;
+$font-bold: 700;
+$font-medium: 500;
+$font-regular: 400;
+
+$font-h1: 18px;
+$font-h2: 16px;
+$font-nm: 14px;
+$font-sm: 12px;
+
+$font-family: 'Roboto';
+
+//buttons
+$btn-color-1: $base-color-3;
+$btn-border-1: $base-color-3;
+$btn-bg-1: $base-color-1;
+$btn-disabled-color: $add-color-1;
+
+$btn-color-2: $base-color-1;
+$btn-border-2: $base-color-2;
+$btn-bg-2: $base-color-1;
+$btn-padding: 5px 10px;
+
+$border-color: $base-color-3;
+$border-weight: 1px;
+$border-radius: 2px;
+$border-ouline-weight: 2px;
+$border-outline-color: $link;
+
+$padding-y: 8px;
+$padding-x: 16px;
+$padding: $padding-y $padding-x;

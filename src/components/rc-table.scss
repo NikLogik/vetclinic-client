@@ -1,0 +1,26 @@
+@import "../css/fonts.scss";
+@import "../css/vars.scss";
+
+$padding: 5px 10px;
+$color: $font-color-1;
+$border: $border-weight solid $border-color;
+
+.rc-table {
+    @extend %font-body;
+    color: $color;
+}
+
+.rc-table-thead .rc-table-cell,
+.rc-table-tbody .rc-table-cell {
+    padding: $padding;
+}
+
+.rc-table-thead .rc-table-cell {
+    @extend %font-body-bold;
+    color: $color;
+}
+
+.rc-table-tbody .rc-table-cell {
+    @extend %font-body;
+    color: $color;
+}

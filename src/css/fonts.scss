@@ -1,0 +1,26 @@
+@import "./vars.scss";
+
+%font-h1 {
+    font-size: $font-h1;
+    font-weight: $font-bold;
+}
+
+%font-h2 {
+    font-size: $font-h2;
+    font-weight: $font-medium;
+}
+
+%font-body-bold {
+    font-size: $font-nm;
+    font-weight: $font-bold;
+}
+
+%font-body {
+    font-size: $font-nm;
+    font-weight: $font-regular;
+}
+
+%font-small {
+    font-size: $font-sm;
+    font-weight: $font-medium;
+}

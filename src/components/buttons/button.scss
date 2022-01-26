@@ -1,0 +1,52 @@
+@import "../../css/vars.scss";
+@import "../../css/fonts.scss";
+
+.btn-standard {
+    @extend %font-body-bold;
+    display: inline-flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    padding: $btn-padding;
+    border-radius: $border-radius;
+    border: none;
+}
+
+.btn-light {
+    color: $btn-color-1;
+    background-color: transparent;
+
+    &:hover {
+        box-shadow: 0 0 0 $border-weight $btn-color-1;
+    }
+
+    &:active {
+        background-color: $btn-bg-1;
+    }
+
+    &:disabled {
+        box-shadow: none;
+        cursor: auto;
+        background-color: transparent;
+        color: $btn-disabled-color;
+    }
+}
+
+.btn-dark {
+    color: $btn-color-2;
+    background-color: transparent;
+
+    &:hover {
+        box-shadow: 0 0 0 $border-weight $btn-color-2;
+    }
+
+    &:active {
+        background-color: $btn-bg-2;
+    }
+
+    &:disabled {
+        color: $btn-disabled-color;
+    }
+}

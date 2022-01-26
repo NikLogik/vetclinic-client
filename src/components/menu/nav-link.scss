@@ -1,0 +1,17 @@
+@import "../../css/vars.scss";
+@import "../../css/fonts.scss";
+
+.nav-link {
+    @extend %font-h1;
+
+    color: $base-color-3;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+}
+
+.nav-link-item {
+    &:hover {
+        box-shadow: 0px $border-weight $base-color-3;
+    }
+}
